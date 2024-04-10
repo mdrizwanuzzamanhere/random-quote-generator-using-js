@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex ;
+    justify-content: center ;
+    align-items: center;
+    flex-direction: column;
+
+    height: 80vh ;
+    width: 100% ;
+   
+}
+
+.sub-container{
+    border: 3px solid rgb(0, 145, 255) ;
+
+    margin: 30px 30px ;
+    padding: 40px 40px ;
+
+    display: flex ;
+    justify-content: center ;
+    align-items: center ;
+    flex-direction: column ;
+
+    background-color: aquamarine;
+}
+
+#btn{
+    font-size: 30px;
+    cursor: pointer;
+    background-color: aqua;
+    padding: 30px 30px;
+}
+
+#btn:hover{
+    background-color: rgb(17, 246, 246);
+}
+
+#result{
+    font-family: sans-serif;
+    font-size: 35px ;
+    margin: 30px 30px ;
+    padding: 40px 40px ;
+}
+
